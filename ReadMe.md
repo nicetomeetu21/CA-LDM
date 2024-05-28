@@ -1,4 +1,4 @@
-Official implementation of the paper "Memory-efficient High-resolution OCT Volume Synthesis with Cascaded Amortized Latent Diffusion Models".
+Official implementation of the paper "Memory-efficient High-resolution OCT Volume Synthesis with Cascaded Amortized Latent Diffusion Models" [Arxiv](https://arxiv.org/html/2405.16516v1).
 
 Our codebase builds on [LatentDiffusion](https://github.com/CompVis/latent-diffusion), [MedicalDiffusion](https://github.com/FirasGit/medicaldiffusion), and [MONAI](https://docs.monai.io/en/stable/networks.html#vitautoenc).
 
