@@ -55,7 +55,7 @@ parser.add_argument('--image_npy_root', type=str, default='path/to/volume/npy')
 
 # Test
 
-We split the generation procedure into three stage.
+We split the generation procedure into three stages.
 
 1.  Generate 3D latents. Run `test_LDM3D.py` and fill following args:
 ```python
