@@ -2,6 +2,8 @@ Official implementation of the paper "Memory-efficient High-resolution OCT Volum
 
 Our codebase builds on [LatentDiffusion](https://github.com/CompVis/latent-diffusion), [MedicalDiffusion](https://github.com/FirasGit/medicaldiffusion), and [MONAI](https://docs.monai.io/en/stable/networks.html#vitautoenc).
 
+Our proposed method is the first to synthesize 3D volumetric images with a resolution of 512^3 using only 24GB of GPU memory.
+
 # Data
 
 Public data 'OCTA-500' can be downloaded at: https://ieee-dataport.org/open-access/octa-500.
