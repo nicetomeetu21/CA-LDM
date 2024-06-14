@@ -66,7 +66,7 @@ class CascadeLDM(pl.LightningModule):
         z_3d = batch['latent_3D']
         print(z_3d.shape)
         d_sr = z_3d.shape[-3]
-        result = torch.zeros([1,1,400,640,400], device=self.device)
+        result = torch.zeros([1,1,512,512,512], device=self.device)
         for i in tqdm(range(2, d_sr - 2)):
             inputs = z_3d[:, :, i - 2:i + 3, :, :].to(self.device)
             # print(inputs.shape)
