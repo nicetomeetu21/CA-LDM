@@ -70,8 +70,8 @@ def main(opts):
         ckpt_path = 'path/to/VQVAE2D/ckpt'
         load_network(model, ckpt_path, device=model.device)
 
-        ckpt_path2 = 'path/to/NHVQVAE/ckpt'
-        load_network(model, ckpt_path2, device=model.device)
+        # ckpt_path2 = 'path/to/NHVQVAE/ckpt'
+        # load_network(model, ckpt_path2, device=model.device)
         # model
         model.decoder.train = disabled_train
         model.encoder.train = disabled_train
